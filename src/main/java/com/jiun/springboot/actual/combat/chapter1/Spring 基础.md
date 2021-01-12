@@ -25,7 +25,12 @@
 * @Configuration 声明当前类是一个配置类
 * @Bean 表明当前方法返回的是一个spring管理的Bean，详见JavaConfig类
 ## [demo3-AOP](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter1/demo3)
-面向切面编程
+面向切面编程。
+
+Spring支持AspectJ的注解式切面编程。
+
+使用@Aspect 声明是一个切面
+使用@After、@Before、@Around定义建言（advice），可直接将拦截规则（切点）作为参数
 #### 用到的相关依赖
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -75,3 +80,5 @@
         class.*(..) 指的是拦截该类的所有方法
         after 是方法执行后
         before 是方法执行前
+#### 配置声明
+* @EnableAspectJAutoProxy 开启Spring对AspectJ代理支持
