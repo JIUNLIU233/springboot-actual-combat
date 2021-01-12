@@ -3,7 +3,7 @@
 
 # 样例描述
 
-## demo1-依赖注入案例
+## [demo1-依赖注入案例](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter1/demo1)
 使用到的相关点：
 #### 声明Bean 注解
 * @Component
@@ -19,12 +19,12 @@
 * @Configuration 声明当前类是一个配置类
 * @ComponentScan("packageName") 结合@Configuration使用，配置类自动扫描包名下的声明Bean注解的类，并自动注册为Bean。
 
-## demo2-Java配置
+## [demo2-Java配置](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter1/demo2)
 使用到的相关点：
 #### 声明配置注解
 * @Configuration 声明当前类是一个配置类
 * @Bean 表明当前方法返回的是一个spring管理的Bean，详见JavaConfig类
-## demo3-AOP
+## [demo3-AOP](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter1/demo3)
 面向切面编程
 #### 用到的相关依赖
         <dependency>
