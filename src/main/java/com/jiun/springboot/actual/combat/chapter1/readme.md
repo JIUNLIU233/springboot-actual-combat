@@ -61,11 +61,11 @@
 * @Inherited 说明子类可以继承父类中的该注解
 
 #### 切面声明
-@Pointcut("@annotation(absoluteAnnotationName)")
+* @Pointcut("@annotation(absoluteAnnotationName)")
         
         使用详解：
         annotation中写上自定义注解的全路径名称，然后只要在方法上加上该注解，即可进行全路径拦截
-@After/Before(execution(* absoluteClassName.*(..)))
+* @After/Before(execution(* absoluteClassName.*(..)))
         
         使用详解：
         execution括号中需要注意 * 后面的这个空格
