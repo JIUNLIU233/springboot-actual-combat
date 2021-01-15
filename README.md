@@ -16,3 +16,11 @@ JavaEE开发者的颠覆者 spring boot 实战 书籍笔记
   [Java配置样例](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter1/demo2) 
   
   [AOP样例](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter1/demo3) 
+
+### [chapter2 Spring 常用配置](https://github.com/JIUNLIU233/springboot-actual-combat/blob/master/src/main/java/com/jiun/springboot/actual/combat/chapter2/Chapter2%20Spring%20%E5%B8%B8%E7%94%A8%E9%85%8D%E7%BD%AE.md)
+本章内容主要如下：
+* 2.1 [Bean 的Scope](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter2/demo1)
+* 2.2 [Spring EL 和资源调用](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter2/demo2)
+* 2.3 [Bean的初始化和销毁](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter2/demo3)
+* 2.4 [Profile 环境配置](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter2/demo4)
+* 2.5 [Spring 事件](https://github.com/JIUNLIU233/springboot-actual-combat/tree/master/src/main/java/com/jiun/springboot/actual/combat/chapter2/demo5)
